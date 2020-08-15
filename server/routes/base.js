@@ -40,14 +40,32 @@ var corsOptions = {
     optionsSuccessStatus: 200,
     //origin: "*:*"
 }
-
+    //A Simple get
     BaseRouter.get('/hello', cors(),function(req, res) { 
-      var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress || req.socket.remoteAddress || req.connection.socket.remoteAddress;        
-      
-        var body = rHelper.parseRequest(req); console.log(body)
-        res.json({success: true, msg: "Hello from the base router!", body: JSON.stringify(body) })
+      var ip = rHelper.getIP(req)
+
+        res.json({success: true, msg: "Hello from the base router!" })
           
     })
+    //A Simple get for JSON file
+    BaseRouter.get('/api-test', cors(),function(req, res) { 
+      var ip = rHelper.getIP(req)
+      
+        var jsonApi = JSON.parse(fs.readFileSync(path.resolve('./test.json')))
+        res.json({success: true, msg: JSON.stringify(jsonApi) })
+          
+    })
+    //A Simple post
+    BaseRouter.post('/post-base', cors(),function(req, res) { 
+      var ip = rHelper.getIP(req)
+      rHelper.parseRequest(req, function(isJSON, data) { 
+        var body = (isJSON)?JSON.stringify(data):data
+        res.json({success: true, msg: "Post request to base", body: body })
+      });
+      
+    })
+
+
 
       
     

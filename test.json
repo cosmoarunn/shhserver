@@ -1,0 +1,9 @@
+{
+  "Title": "Test API (from JSON file)",
+  "path": "/server/routes/",
+  "file": "test.json",
+  "data": {
+    "success": true,
+    "msg": "Hello from test json api"
+  }
+}

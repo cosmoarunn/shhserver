@@ -16,16 +16,27 @@ SHH Server is a light weight api server built using express.js for fast and rapi
   ```
     localhost:port/routes/route_name/getorpost_func
   ```
-  A simple hello from the route 'base'
+  - A simple hello from the route 'base'
   ```
   localhost:port/routes/base/hello
   ```
 
-  A simple JSON file (api mock) from the route 'base'
+  - A simple JSON file (api mock) from the route 'base'
   ```
   localhost:port/routes/base/api-test
   ```
   
+## Try online
+No time to download and test?
+Try shhserver online 
+Get Requests,
+- https://shhserver.arunpanneerselvam.com/
+- https://shhserver.arunpanneerselvam.com/hello
+- https://shhserver.arunpanneerselvam.com/api-test
+
+Post Requests (try 'PostMan' like), 
+- https://shhserver.arunpanneerselvam.com/post-base
+
 
 ## Support or Contact
 

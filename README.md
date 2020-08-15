@@ -5,7 +5,7 @@ A restful node.js/Express - CORS Enabled - Webserver
 ## A light-weight api server
 
 SHH Server is a light weight api server built using express.js for fast and rapid deployment of a development/test server.
-
+![SHHServer: Light-weight API server](https://github.com/cosmoarunn/shhserver/raw/master/shhserver-post-req.png)
 ## start the server with,
    ```
      node index.js

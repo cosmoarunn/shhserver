@@ -31,8 +31,9 @@ No time to download and test?
 Try shhserver online 
 Get Requests,
 - https://shhserver.arunpanneerselvam.com/
-- https://shhserver.arunpanneerselvam.com/hello
-- https://shhserver.arunpanneerselvam.com/api-test
+- https://shhserver.arunpanneerselvam.com/base
+- https://shhserver.arunpanneerselvam.com/base/hello
+- https://shhserver.arunpanneerselvam.com/base/api-test
 
 Post Requests (try 'PostMan' like), 
 - https://shhserver.arunpanneerselvam.com/post-base

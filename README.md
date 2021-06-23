@@ -47,6 +47,11 @@ Get Requests,
 Post Requests (try 'PostMan' like), 
 - https://shhserver.arunpanneerselvam.com/routes/post-base
 
+don't forget to edit the SSL options at, 
+```
+shhserver/server/config.js 
+```
+
 
 ## Support or Contact
 

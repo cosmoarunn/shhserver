@@ -1,0 +1,44 @@
+{
+  "name": "levnoa-server",
+  "homepage": "https://github.com/cosmoarunn/shhserver",
+  "description": "A simple ready-to-deploy nodejs express server",
+  "version": "1.0.1",
+  "license": "MIT",
+  "main": "server.js",
+  "author": {
+    "name": "Arun Panneerselvam",
+    "email": "me@arunpanneerselvam.com",
+    "url": "https://shhserver.arunpanneerselvam.com"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "keywords": [
+    "Shh Server",
+    "node express server",
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cosmoarunn/shhserver/shhserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cosmoarunn/shhserver/shhserver.git"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "ws": "7.2.3"
+  },
+  "devDependencies": {
+   
+  },
+  "maintainers": [
+    {
+      "name": "Arun Panneerselvam",
+      "email": "me@arunpanneerselvam.com"
+    }
+  ]
+}

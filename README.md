@@ -18,7 +18,14 @@ SHH Server is a light weight api server built using express.js for fast and rapi
          (or)
      yarn
    ```
-  - Create a folder `ssh` on the main repository path Add custom key and certificate for ssl (https)
+  - Create a folder `ssh` on the main repository path Add custom key and certificate for ssl (https) . To generate self signed certificate and key using openssl,
+
+  ```
+    openssl genrsa -out key.pem 2048
+    openssl req -new -sha256 -key key.pem -out csr.csr
+    openssl req -x509 -sha256 -days 365 -key key.pem -in csr.csr -out certificate.pem
+    openssl req -in csr.csr -text -noout | grep -i "Signature.*SHA256" && echo "All is well" || echo "This certificate will stop working in 2017! You must update OpenSSL to generate a widely-compatible certificate"
+  ```
 
   -  Run the server
    ```

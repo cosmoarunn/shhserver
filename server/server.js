@@ -96,7 +96,7 @@ if(config.https) {
   */
 if(config.socketEnabled)  {
   const io        = require('socket.io')(server);
-  io.origins(config.whitelist);  //io.origins('*:*') 
+  //io.origins(config.whitelist);  //io.origins('*:*') 
 
   io.on('connection', (client) => { 
       client.on('subscribeTo', (interval) => {  

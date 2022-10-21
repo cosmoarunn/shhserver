@@ -24,7 +24,7 @@ module.exports =  {
         sslEnabled: true,
         sslOptions: { 
             key :  fs.readFileSync(path.resolve('./ssh/key.pem')),
-            cert:  fs.readFileSync(path.resolve('./ssh/server.crt')) 
+            cert:  fs.readFileSync(path.resolve('./ssh/cert.pem')) 
         },
 } 
 

@@ -1,6 +1,6 @@
 # SHH Server
 
-A restful node.js/Express - CORS Enabled - Webserver
+A restful node.js/Express - SSL & CORS Enabled - Webserver
 
 ## A light-weight api server
 
@@ -55,6 +55,6 @@ shhserver/server/config.js
 
 ## Support or Contact
 
-Having trouble working with? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble working with? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/cosmoarunn) and we’ll help you sort it out.
 website: https://shhserver.arunpanneerselvam.com
 email: arun@arunpanneerselvam.com

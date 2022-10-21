@@ -42,7 +42,7 @@
     "promise": "^8.2.0",
     "request": "^2.88.2",
     "socket.io": "^4.5.3",
-    "ws": "7.2.3"
+    "ws": "7.4.6"
   },
   "devDependencies": {},
   "maintainers": [

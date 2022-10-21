@@ -6,6 +6,27 @@ A restful node.js/Express - SSL & CORS Enabled - Webserver
 
 SHH Server is a light weight api server built using express.js for fast and rapid deployment of a development/test server.
 ![SHHServer: Light-weight API server](https://github.com/cosmoarunn/shhserver/raw/master/shhserver-post-req.png)
+
+## Installation 
+  - Clone the repository
+  ```
+     git clone https://github.com/cosmoarunn/shhserver.git
+   ```
+  - Install packages
+  ```
+     npm run install 
+         (or)
+     yarn
+   ```
+  - Create a folder `ssh` on the main repository path Add custom key and certificate for ssl (https)
+
+  -  Run the server
+   ```
+     npm run start
+        (or)
+     yarn run start
+   ```
+
 ## start the server with,
    ```
      node index.js
